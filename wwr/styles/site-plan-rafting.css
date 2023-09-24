@@ -4,8 +4,8 @@
     --secondary-color: #FFFFFF;
     --accent1-color: #EFA426;
     --accent2-color: #6D696A;
-    --heading-font:'Heebo', Heebo;
-    --paragraph-font: 'Heebo', Heebo;
+    --heading-font: 'Heebo', sans-serif;
+    --paragraph-font: 'Heebo', sans-serif;
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--accent1-color);
     --nav-hover-link-color:var(--accent2-color);
