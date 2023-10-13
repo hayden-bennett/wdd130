@@ -32,7 +32,7 @@ main img {
 }
 
 p {
-    padding: 0
+    padding: 0;
 }
 
 main {
@@ -68,7 +68,7 @@ footer {
     text-align: center;
 }
 
-/* Class Selectors*/
+/*Class Selectors*/
 
 .box {
     margin: 1rem;
