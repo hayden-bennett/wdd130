@@ -63,6 +63,12 @@ header img {
     height: 75px;
     padding: 1%;
 }
+section img {
+    width: 100px;
+    height: auto;
+}
+section {
+    display: grid 100 100 100 100 100}
 
 /* hero */
 .hero {
@@ -72,7 +78,6 @@ header img {
 }
 .heroimg {
     width: 100%;
-    height: auto;
 }
 h1 {
     position: absolute;
@@ -88,7 +93,7 @@ article {
     position: absolute;
     z-index: 1;
     display: flex;
-    margin: 10px;
+    margin: px;
     padding: 1rem;
     background-color: var(--accent2-color);
     top: 70px;
@@ -96,10 +101,13 @@ article {
 }
 article p {
     color: var(--secondary-color);
-    padding: 1rem
+    padding: 1rem;
+    width: 60%;
+    font-size: auto;
 }
 article img {
     float: right;
-    width: 200px;
-    
+    width: 40%;
+    height: auto;
+
 }
