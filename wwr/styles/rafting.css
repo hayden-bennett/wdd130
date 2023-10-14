@@ -7,47 +7,29 @@
     --heading-font: 'Heebo', sans-serif;
     --paragraph-font: 'Heebo', sans-serif;
     --nav-background-color:var(--primary-color);
-    --nav-link-color:var(--accent1-color);
+    --nav-link-color:var(--secondary-color);
     --nav-hover-link-color:var(--accent2-color);
     --nav-hover-background-color:var(--secondary-color);
 }
-
-/* main stuff*/
-h1 {
-    font-family: var(--heading-font);
-    color: var(--accent2-color);
-    position: absolute;
+* {
+    margin: 0;
+    padding: 0;
 }
 h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
-
-article {
-    position: absolute;
-    width: 100%;
-}
-
-p {
-    padding: 25px;
-    font-family: var(--paragraph-font);
-}
-
-article img {
-    width: 250px;
-    float: right;
-}
-
+/* navagation/header/footer */
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin: 0;
     display: flex;
 }
 nav a{
     display:block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 2rem;
 }
 nav a:link, nav a:visited{
     color: var(--nav-link-color);
@@ -56,12 +38,68 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-
-/*class declarations*/
-.hero{
-    display: block;
-    width:100%;
-    height: auto;
+footer {
+    display: flex;
+    background-color: var(--nav-background-color);
+    margin-top: 1rem;
     position: relative;
+}
+footer nav a {
+    color: var(--secondary-color);
+    padding: 1rem;
+}
+footer p {
+    color: var(--secondary-color);
+    font-size: small;
+    text-align:;
+}
+header {
+    background-color: var(--nav-background-color);
+    display: flex;
+    margin-bottom: 1px;
+}
+header img {
+    width: 50px;
+    height: 75px;
+    padding: 1%;
+}
+
+/* hero */
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.heroimg {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+    z-index: 2;
+    color: var(--accent2-color);
+    top: 30px;
+    letter-spacing: 15px;
+    background-color: var(--secondary-color);    
+    opacity: .7;
+    padding: 1rem
+}
+article {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin: 10px;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    top: 70px;
+    font-size: auto;
+}
+article p {
+    color: var(--secondary-color);
+    padding: 1rem
+}
+article img {
+    float: right;
+    width: 200px;
+    
 }
