@@ -26,7 +26,7 @@ header {
     background-color: var(--nav-background-color);
     display: flex;
     align-items: center;
-    margin-bottom: 1rem auto;
+    margin-bottom: 1rem;
     border-bottom: 5px solid var(--accent1-color);
     justify-content: space-between;
 }
@@ -155,7 +155,6 @@ article {
     background-color: var(--accent2-color);
     top: 30%;
     bottom: 20%;
-    font-size: auto;
     width: 80%;
     height: auto;
 }
