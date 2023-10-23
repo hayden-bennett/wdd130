@@ -19,7 +19,14 @@ body, html {
     align-items: center;
     flex-direction: column;
 }
-
+h1 {
+    font-size: x-large;
+    margin-bottom: .5rem;
+    background-color: #2e26a1;
+    width: fit-content;
+    padding: .5rem;
+    border-radius: 1rem;
+}
 *{
     margin:0;
     padding: 0;
@@ -39,7 +46,7 @@ header {
     width: 650px;
     color: var(--secondary-color);
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
     font-weight: 700;
     font-size: x-large;
 }
@@ -48,9 +55,9 @@ footer {
     width: 650px;
     color: var(--secondary-color);
     text-align: center;
-    margin: 1rem;
     font-weight: 200;
     font-size: small;
+    margin: 1rem;
 
 }
 
