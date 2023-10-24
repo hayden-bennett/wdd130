@@ -337,3 +337,11 @@ iframe {
     text-indent: 10px;
     margin-left: 2rem;
 }
+
+.contactwireframe {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.contactwireframe:hover {
+    color: var(--accent1-color);
+}
