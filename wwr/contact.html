@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Hayden Bennett | WDD130">
-        <meta name="description" content="'About Us' page for Rafting Project">
-        <meta name="title" content="Rafting Momentum About Us">
+        <meta name="description" content="'Contact Us' page for Rafting Project">
+        <meta name="title" content="Rafting Momentum Contact Us Page">
         <link rel="stylesheet" href="styles/rafting.css">
         <title>Rafting Momentum About Page</title>
     </head>
@@ -20,43 +20,86 @@
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <img class="heroimg" src="images/hero.jpg" alt="Hero image">
-                <h1>Rafting Momentum</h1>
-                <article>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, molestias facere soluta illum maiores porro reiciendis dolore accusamus repellat numquam, voluptatibus similique fugit, debitis libero aperiam adipisci officiis aut sint enim exercitationem nemo id architecto tempore! Dignissimos numquam necessitatibus repellendus dolorum, beatae soluta quibusdam illum vero corporis suscipit repudiandae natus.</p>
-                    <img src="images/happyclients.png" alt="happy clients">
-                </article>
+            <section class="employeecolumn">
+                <h2>Meet the Owners</h2>
+                <div class="employeepics">
+                    <figure>
+                            <img src="images/owner1.jpg" alt="1">
+                            <figcaption>Nick Helm - President</figcaption>
+                    </figure>
+                    <figure>
+                            <img src="images/owner2.jpg" alt="owner2">
+                            <figcaption>Amber Johanson - Manager </figcaption>
+                    </figure>
+                    <figure>
+                            <img src="images/owner3.jpg" alt="2">
+                            <figcaption>Tom Hoffman - Coordinator</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <div class="contactusgrid">
+                <div class="contactgrid">
+                    <section class="gridbox" class="gridbox1">
+                        <h1>Contact Us</h1>
+                        <h3>Phone</h3>
+                        <p>(987) 654-3210</p>
+                        <h3>Email</h3>
+                        <p>raftingmomentum@blank.org</p>
+                        <h3>Address</h3>
+                        <p>2440 Dee Hwy,</p>
+                        <p>Hood River, OR 97031</p>
+                    </section>
+                    <section class="gridbox">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80106.24811059628!2d-121.59686039353896!3d45.681354640507045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549608c14aabd903%3A0xc73b3f42f9bfe754!2sTucker%20Park%20(Hood%20River%2C%20OR)!5e0!3m2!1sen!2sus!4v1698040593963!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                </div>
             </div>
-            <section class="historycolumn">
-                <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quisquam optio dignissimos nihil autem repellat quas adipisci perferendis blanditiis distinctio dolores, ullam eligendi laborum tempora! Magnam nostrum accusantium atque dolore distinctio sapiente quam incidunt, necessitatibus quis animi, omnis neque aut consequatur. Ducimus consequatur magni exercitationem iure animi illo dolor reiciendis, nisi quo quisquam facilis corporis et quaerat aut, sapiente dolorem mollitia numquam quia quam porro labore cum ullam. Vero repellat aut ex nesciunt officiis neque voluptate sit doloremque laudantium minima aliquid itaque sed culpa eum fugiat veritatis, earum fuga. Illum nihil odio atque! Ea quod dolore delectus fugit iusto minus.</p>
-            </section>
-            <section class="adventurecolumn">
-                <h2>Adventure Awaits You!</h2>
-                <div class="adventurepics">
-                   <figure>
-                        <img src="images/1.jpg" alt="1">
-                        <figcaption>Cascade</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/2.jpg" alt="2">
-                        <figcaption>Calm Waters</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/3.jpg" alt="2">
-                        <figcaption>Pool Falls</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/4.jpg" alt="2">
-                        <figcaption>Stairsteps of Heaven</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/5.jpg" alt="2">
-                        <figcaption>Chaos Creek</figcaption>
-                    </figure>
-                </div>    
-            </section>
+        <div class="formbody">
+            <form class="contactform">
+                <fieldset class="contactfieldset">
+                    <h1>Questions?</h1>
+                    <p>Fill out this form and we will reach out to you as soon as possible<p>
+
+              
+                        <label for="q1">Your Name</label>
+                        <input class="answerbox" type="text" id="q1" name="q1">
+                        <label for="q2">Email Address</label>
+                        <input class="answerbox" type="text" id="q2" name="q2">
+
+                    <div class="radiogroup">
+                        <label for="q3">Purpose of Message</label>
+                            <div class="radiobutton">
+                                <option value="option1">General Inquiry</option>
+                                <input type="radio" id="q3" name="q3">
+                            </div>
+                            <div class="radiobutton">
+                                <option value="option2">Reservation Question</option>
+                                <input type="radio" id="q3" name="q3">
+                            </div>
+                            <div class="radiobutton">
+                                <option value="option3">Website Suggestion</option>
+                                <input type="radio" id="q3" name="q3">
+                            </div>
+                            <div class="radiobutton">
+                                <option value="option4">Other</option>
+                                <input type="radio" id="q3" name="q3">
+                            </div>
+                    </div>
+
+
+                    <label for="q4">Message For Us</label>
+                    <textarea class="answerbox" rows="4" id="q4" name="q4"></textarea>
+
+
+                    <div class="subscribe">
+                    <label for="q5">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="q5" name="q5">             
+                    </div>
+                    
+                </fieldset>
+                <button class ="contactbutton" type="submit">Submit Response</button>
+            </form>
+        </div>
         </main>
         <footer>
             <p>Copyright ©️ 2023 | Rafting Momentum | Hayden Bennett</p>
